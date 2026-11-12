@@ -8,13 +8,7 @@ Unofficial build, not affiliated with TigerData or the CloudNativePG project. It
 
 ## Images
 
-https://github.com/vaaripa/cloudnative-pg-timescaledb/pkgs/container/cloudnative-pg-timescaledb
-
-```
-ghcr.io/vaaripa/cloudnative-pg-timescaledb:2.32.0-18-trixie
-```
-
-Tags are `<timescale_version>-<pg_major>-<distro>` and `sha-<commit>`, for amd64 and arm64.
+Images are available at [ghcr.io/vaaripa/cloudnative-pg-timescaledb](https://github.com/vaaripa/cloudnative-pg-timescaledb/pkgs/container/cloudnative-pg-timescaledb). Tags are `<timescale_version>-<pg_major>-<distro>` and `sha-<commit>`, for amd64 and arm64.
 
 ## Requirements
 
