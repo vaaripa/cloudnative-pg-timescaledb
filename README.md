@@ -1,5 +1,7 @@
 # cloudnative-pg-timescaledb
 
+[![build](https://github.com/vaaripa/cloudnative-pg-timescaledb/actions/workflows/build.yaml/badge.svg)](https://github.com/vaaripa/cloudnative-pg-timescaledb/actions/workflows/build.yaml)
+
 TimescaleDB **Community Edition** packaged as a CloudNativePG [image volume extension](https://cloudnative-pg.io/docs/current/imagevolume_extensions/). The image is not runnable on its own — CloudNativePG mounts it read-only into the PostgreSQL pods via `.spec.postgresql.extensions`.
 
 CloudNativePG publishes the same thing for the Apache 2 edition ([`timescaledb-oss`](https://github.com/cloudnative-pg/postgres-extensions-containers)). This one is the TSL build, for the features that edition leaves out — compression, continuous aggregate policies, retention policies.
